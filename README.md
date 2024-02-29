@@ -3,7 +3,7 @@
 
 ![Release](https://img.shields.io/badge/Release-v1.0-blueviolet)
 ![Format](https://img.shields.io/badge/Format-JSONL-ffcc14)
-![Size](https://img.shields.io/badge/Size-388Mo-f12222)
+![Size](https://img.shields.io/badge/Size-395Mo-f12222)
 ![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 
 <br/>
@@ -48,11 +48,11 @@ I also added annotations for each document to indicate if it was generated or wr
 |                           | Documents   | Tokens           | Ratio        |
 |:--------------------------|:-----------:|:----------------:|:------------:|
 | **All**                   | **274,188** | **≈ 84,673,432** | **100.00 %** |
-| **Written by a human**    | 83,801      | ≈ 24,701,204     | 29.17 %      |
-| **Written by a chatbot*** | 190,387     | ≈ 59,972,228     | 70.83 %      |
-| **Human-style answers**   | 56,198      | ≈ 14,253,829     | 16.83 %      |
-| **Chatbot-style answers** | 217,990     | ≈ 70,419,603     | 83.17 %      |
-| **Contains code**         | 14,788      | ≈ 11,451,382     | 13.52 %      |
+| Written by a human        | 83,801      | ≈ 24,701,204     | 29.17 %      |
+| Written by a chatbot*     | 190,387     | ≈ 59,972,228     | 70.83 %      |
+| Human-style answers       | 56,198      | ≈ 14,253,829     | 16.83 %      |
+| Chatbot-style answers     | 217,990     | ≈ 70,419,603     | 83.17 %      |
+| Contains code             | 14,788      | ≈ 11,451,382     | 13.52 %      |
 
 (*) Generally by well-established chatbots like ChatGPT.
 
@@ -210,7 +210,7 @@ dataset = load_dataset('DIMENSI0N/french_instruct')
 You first need to download the repository, then you can use the `load.py` script to load the dataset or merge it in a sigle `.jsonl` file:
 
 ```py
-from load import load_dataset
+from load import load_dataset, merge_dataset
 
 # Load the dataset
 dataset = load_dataset()
@@ -330,4 +330,4 @@ assistant: "Je suis heureux de pouvoir vous aider. Si vous avez une question ou 
 # Credits
 
 * [**Angel Uriot**](https://github.com/angeluriot) : Creator of the project.
-* All the people who contributed to the sources of the dataset.
+* All the people who contributed to the sources of the dataset (see the [**Sources**](#sources) section).
