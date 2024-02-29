@@ -8,7 +8,7 @@
 
 <br/>
 
-The **French Instruct dataset** is a collection of instructions with their corresponding answers (sometimes multi-turn conversations) entirely in French. The dataset is also available on [**Hugging Face 🤗**](https://huggingface.co/datasets).
+The **French Instruct dataset** is a collection of instructions with their corresponding answers (sometimes multi-turn conversations) entirely in French. The dataset is also available on [**Hugging Face 🤗**](https://huggingface.co/datasets/DIMENSI0N/french_instruct).
 
 <br/>
 
