@@ -64,25 +64,25 @@ Each record in the dataset follows the structure below:
 
 ```json
 {
-	"context": "Some context for the instructions (sometimes empty)",
-	"conversation": [
-		{
-			"role": "user",
-			"text": "The first instruction"
-		},
-		{
-			"role": "assistant",
-			"text": "The first answer"
-		},
-		{
-			"role": "user",
-			"text": "The second instruction, etc..."
-		},
-	],
-	"author": "human",
-	"style": "chatbot",
-	"code": false,
-	"source": "The source of the document"
+    "context": "Some context for the instructions (sometimes empty)",
+    "conversation": [
+        {
+            "role": "user",
+            "text": "The first instruction"
+        },
+        {
+            "role": "assistant",
+            "text": "The first answer"
+        },
+        {
+            "role": "user",
+            "text": "The second instruction, etc..."
+        },
+    ],
+    "author": "human",
+    "style": "chatbot",
+    "code": false,
+    "source": "The source of the document"
 }
 ```
 
