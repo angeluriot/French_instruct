@@ -24,12 +24,12 @@ The **French Instruct dataset** is a collection of instructions with their corre
 * **[Data Structure](#data-structure)**
 * **[Sources](#sources)**
 * **[Usage](#usage)**
-	* **[Hugging Face](#hugging-face-)**
-	* **[GitHub](#github)**
+	* [Hugging Face](#hugging-face-)
+	* [GitHub](#github)
 * **[Examples](#examples)**
-	* **[Instructions](#instructions)**
-	* **[Code](#code)**
-	* **[Multi-turn conversations](#multi-turn-conversations)**
+	* [Instructions](#instructions)
+	* [Code](#code)
+	* [Multi-turn conversations](#multi-turn-conversations)
 * **[Credits](#credits)**
 
 <br/>
