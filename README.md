@@ -7,7 +7,7 @@
 
 <br/>
 
-The **French Instruct dataset** is a collection of instructions with their corresponding answers (sometimes multi-turn conversations) entirely in French. The dataset is also available on [**Hugging Face 🤗**](https://huggingface.co/datasets/DIMENSI0N/french_instruct).
+The **French Instruct dataset** is a collection of instructions with their corresponding answers (sometimes multi-turn conversations) entirely in French. The dataset is also available on [**Hugging Face 🤗**](https://huggingface.co/datasets/angeluriot/french_instruct).
 
 <br/>
 
@@ -201,7 +201,7 @@ pip install datasets
 ```py
 from datasets import load_dataset
 
-dataset = load_dataset('DIMENSI0N/french_instruct')
+dataset = load_dataset('angeluriot/french_instruct')
 ```
 
 ### GitHub
