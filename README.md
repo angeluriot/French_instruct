@@ -2,7 +2,7 @@
 
 ![Release](https://img.shields.io/badge/Release-v1.0-blueviolet)
 ![Format](https://img.shields.io/badge/Format-JSONL-ffcc14)
-![Size](https://img.shields.io/badge/Size-395Mo-f12222)
+![Size](https://img.shields.io/badge/Size-396Mo-f12222)
 ![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 
 <br/>
@@ -36,7 +36,7 @@ The **French Instruct dataset** is a collection of instructions with their corre
 
 # Overview
 
-The dataset is composed of 274K conversations between a user and an assistant for a total of approximately 85M tokens.
+The dataset is composed of 276K conversations between a user and an assistant for a total of approximately 85M tokens.
 
 <p align="center">
 	<img src="resources/misc/charts.png" width="1000">
@@ -46,12 +46,12 @@ I also added annotations for each document to indicate if it was generated or wr
 
 |                           | Documents   | Tokens           | Ratio        |
 |:--------------------------|:-----------:|:----------------:|:------------:|
-| **All**                   | **274,188** | **≈ 84,673,432** | **100.00 %** |
-| Written by a human        | 83,801      | ≈ 24,701,204     | 29.17 %      |
-| Written by a chatbot*     | 190,387     | ≈ 59,972,228     | 70.83 %      |
-| Human-style answers       | 56,198      | ≈ 14,253,829     | 16.83 %      |
-| Chatbot-style answers     | 217,990     | ≈ 70,419,603     | 83.17 %      |
-| Contains code             | 14,788      | ≈ 11,451,382     | 13.52 %      |
+| **All**                   | **275,600** | **≈ 84,906,090** | **100.00 %** |
+| Written by a human        | 85,213      | ≈ 24,908,868     | 29.34 %      |
+| Written by a chatbot*     | 190,387     | ≈ 59,997,223     | 70.66 %      |
+| Human-style answers       | 56,198      | ≈ 14,255,100     | 16.79 %      |
+| Chatbot-style answers     | 219,402     | ≈ 70,650,990     | 83.21 %      |
+| Contains code             | 14,788      | ≈ 11,455,659     | 13.49 %      |
 
 (*) Generally by well-established chatbots like ChatGPT.
 
@@ -106,67 +106,73 @@ The table below shows the distribution of the documents and tokens for each sour
 		<tr>
 			<td align="left"><b><a href="https://huggingface.co/datasets/nickrosh/Evol-Instruct-Code-80k-v1">Evol Instruct</a></b> <i>(translated)</i></td>
 			<td align="center">56,747</td>
-			<td align="center">≈ 36,006,326</td>
-			<td align="center">42.52 %</td>
+			<td align="center">≈ 36,016,255</td>
+			<td align="center">42.42 %</td>
 		</tr>
 		<tr>
 			<td align="left"><b><a href="https://huggingface.co/datasets/Hello-SimpleAI/HC3">Human ChatGPT Comparison Corpus</a></b> <i>(translated)</i></td>
 			<td align="center">82,729</td>
-			<td align="center">≈ 23,313,595</td>
-			<td align="center">27.53 %</td>
+			<td align="center">≈ 23,316,107</td>
+			<td align="center">27.46 %</td>
 		</tr>
 		<tr>
 			<td align="left"><b><a href="https://huggingface.co/datasets/KK04/LogicInference_OA">Logic Inference OA</a></b> <i>(translated)</i></td>
 			<td align="center">54,542</td>
-			<td align="center">≈ 8,112,473</td>
-			<td align="center">9.58 %</td>
+			<td align="center">≈ 8,124,315</td>
+			<td align="center">9.57 %</td>
 		</tr>
 		<tr>
 			<td align="left"><b><a href="https://huggingface.co/datasets/tatsu-lab/alpaca">Stanford Alpaca</a></b> <i>(translated)</i></td>
 			<td align="center">51,243</td>
-			<td align="center">≈ 5,519,996</td>
-			<td align="center">6.52 %</td>
+			<td align="center">≈ 5,521,752</td>
+			<td align="center">6.50 %</td>
 		</tr>
 		<tr>
 			<td align="left"><b><a href="https://huggingface.co/datasets/0x22almostEvil/multilingual-wikihow-qa-16k">WikiHow</a> FR</b></td>
 			<td align="center">2,156</td>
-			<td align="center">≈ 4,789,549</td>
-			<td align="center">5.66 %</td>
+			<td align="center">≈ 4,789,558</td>
+			<td align="center">5.64 %</td>
 		</tr>
 		<tr>
 			<td align="left"><b><a href="https://huggingface.co/datasets/databricks/databricks-dolly-15k">Dolly</a></b> <i>(translated)</i></td>
 			<td align="center">14,896</td>
-			<td align="center">≈ 3,677,987</td>
-			<td align="center">4.34 %</td>
+			<td align="center">≈ 3,678,165</td>
+			<td align="center">4.33 %</td>
 		</tr>
 		<tr>
 			<td align="left"><b><a href="https://huggingface.co/datasets/RyokoAI/ShareGPT52K">Share GPT</a> FR</b></td>
 			<td align="center">1,385</td>
-			<td align="center">≈ 1,300,795</td>
-			<td align="center">1.54 %</td>
+			<td align="center">≈ 1,301,026</td>
+			<td align="center">1.53 %</td>
 		</tr>
 		<tr>
 			<td align="left"><b><a href="https://huggingface.co/datasets/gsm8k">Grade School Math</a></b> <i>(translated)</i></td>
 			<td align="center">8,792</td>
-			<td align="center">≈ 1,260,802</td>
+			<td align="center">≈ 1,263,370</td>
 			<td align="center">1.49 %</td>
 		</tr>
 		<tr>
 			<td align="left"><b><a href="https://huggingface.co/datasets/GAIR/lima">Less Is More for Alignment</a></b> <i>(translated)</i></td>
 			<td align="center">1,032</td>
-			<td align="center">≈ 581,857</td>
+			<td align="center">≈ 581,897</td>
 			<td align="center">0.69 %</td>
+		</tr>
+		<tr>
+			<td align="left"><b><a href="https://huggingface.co/datasets/CohereForAI/aya_dataset">Aya Dataset</a> FR</b></td>
+			<td align="center">1,412</td>
+			<td align="center">≈ 203,537</td>
+			<td align="center">0.24 %</td>
 		</tr>
 		<tr>
 			<td align="left"><b><a href="https://huggingface.co/datasets/OpenAssistant/oasst1">Open Assistant Conversations</a> FR</b></td>
 			<td align="center">255</td>
-			<td align="center">≈ 79,009</td>
+			<td align="center">≈ 79,025</td>
 			<td align="center">0.09 %</td>
 		</tr>
 		<tr>
 			<td align="left"><b><a href="https://huggingface.co/datasets/Gael540/dataSet_ens_sup_fr-v1">ENS Sup Dataset</a></b></td>
 			<td align="center">383</td>
-			<td align="center">≈ 24,727</td>
+			<td align="center">≈ 24,770</td>
 			<td align="center">0.03 %</td>
 		</tr>
 		<tr>
@@ -177,8 +183,8 @@ The table below shows the distribution of the documents and tokens for each sour
 		</tr>
 		<tr>
 			<th align="left">Total</th>
-			<th align="center">274,188</th>
-			<th align="center">≈ 84,673,432</th>
+			<th align="center">275,600</th>
+			<th align="center">≈ 84,906,090</th>
 			<th align="center">100.00 %</th>
 		</tr>
 	</tbody>
