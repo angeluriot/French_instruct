@@ -196,6 +196,8 @@ The table below shows the distribution of the documents and tokens for each sour
 
 The **French Instruct dataset** is mainly intended for training and evaluating conversational Large Language Models (LLMs), but it can also be used for classifying human-written text from generated text using the additional annotations.
 
+<br/>
+
 ## 🤗 Hugging Face
 
 The simplest way to use the dataset is to load it directly from the Hugging Face library:
@@ -209,6 +211,8 @@ from datasets import load_dataset
 
 dataset = load_dataset('angeluriot/french_instruct')
 ```
+
+<br/>
 
 ## 🐱 GitHub
 
@@ -249,6 +253,8 @@ assistant: "Le principal avantage d'un programme de fidélité pour les membres 
             clients et encourage les clients à dépenser plus d'argent avec l'entreprise."
 ```
 
+<br/>
+
 ## 🖥️ Code
 
 ```yaml
@@ -274,6 +280,8 @@ assistant: "```
                 return max(lst)
             ```"
 ```
+
+<br/>
 
 ## 💬 Multi-turn conversations
 
