@@ -1,4 +1,4 @@
-# French Instruct
+# 🧑‍🏫 French Instruct
 
 ![Release](https://img.shields.io/badge/Release-v1.0-blueviolet)
 ![Format](https://img.shields.io/badge/Format-JSONL-ffcc14)
@@ -17,24 +17,24 @@ The **French Instruct dataset** is a collection of instructions with their corre
 
 <br/>
 
-# Summary
+# 📋 Summary
 
-* **[Summary](#summary)**
-* **[Overview](#overview)**
-* **[Data Structure](#data-structure)**
-* **[Sources](#sources)**
-* **[Usage](#usage)**
-	* [Hugging Face](#hugging-face-)
-	* [GitHub](#github)
-* **[Examples](#examples)**
-	* [Instructions](#instructions)
-	* [Code](#code)
-	* [Multi-turn conversations](#multi-turn-conversations)
-* **[Credits](#credits)**
+* **[📋 Summary](#-summary)**
+* **[📊 Overview](#-overview)**
+* **[🗃️ Data Structure](#%EF%B8%8F-data-structure)**
+* **[🔗 Sources](#-sources)**
+* **[🛠️ Usage](#%EF%B8%8F-usage)**
+	* [🤗 Hugging Face](#-hugging-face)
+	* [🐱 GitHub](#-github)
+* **[📑 Examples](#-examples)**
+	* [📖 Instructions](#-instructions)
+	* [🖥️ Code](#%EF%B8%8F-code)
+	* [💬 Multi-turn conversations](#-multi-turn-conversations)
+* **[🙏 Credits](#-credits)**
 
 <br/>
 
-# Overview
+# 📊 Overview
 
 The dataset is composed of 276K conversations between a user and an assistant for a total of approximately 85M tokens.
 
@@ -57,7 +57,7 @@ I also added annotations for each document to indicate if it was generated or wr
 
 <br/>
 
-# Data Structure
+# 🗃️ Data Structure
 
 Each record in the dataset follows the structure below:
 
@@ -87,7 +87,7 @@ Each record in the dataset follows the structure below:
 
 <br/>
 
-# Sources
+# 🔗 Sources
 
 The dataset is a mix of various sources, some of which are translated from English to French using the ChatGPT API. I also did some cleaning and filtering to remove irrelevant data (duplicates, empty conversations, remaining English text, etc...).
 
@@ -192,11 +192,11 @@ The table below shows the distribution of the documents and tokens for each sour
 
 <br/>
 
-# Usage
+# 🛠️ Usage
 
 The **French Instruct dataset** is mainly intended for training and evaluating conversational Large Language Models (LLMs), but it can also be used for classifying human-written text from generated text using the additional annotations.
 
-### Hugging Face 🤗
+## 🤗 Hugging Face
 
 The simplest way to use the dataset is to load it directly from the Hugging Face library:
 
@@ -210,7 +210,7 @@ from datasets import load_dataset
 dataset = load_dataset('angeluriot/french_instruct')
 ```
 
-### GitHub
+## 🐱 GitHub
 
 You first need to download the repository, then you can use the `load.py` script to load the dataset or merge it in a sigle `.jsonl` file:
 
@@ -226,9 +226,9 @@ merge_dataset()
 
 <br/>
 
-# Examples
+# 📑 Examples
 
-### Instructions
+## 📖 Instructions
 
 ```yaml
 context:   ""
@@ -249,7 +249,7 @@ assistant: "Le principal avantage d'un programme de fidélité pour les membres 
             clients et encourage les clients à dépenser plus d'argent avec l'entreprise."
 ```
 
-### Code
+## 🖥️ Code
 
 ```yaml
 context:   "for i in range(10):
@@ -275,7 +275,7 @@ assistant: "```
             ```"
 ```
 
-### Multi-turn conversations
+## 💬 Multi-turn conversations
 
 ```yaml
 context:   ""
@@ -332,7 +332,7 @@ assistant: "Je suis heureux de pouvoir vous aider. Si vous avez une question ou 
 
 <br/>
 
-# Credits
+# 🙏 Credits
 
 * [**Angel Uriot**](https://github.com/angeluriot) : Creator of the project.
-* All the people who contributed to the sources of the dataset (see the [**Sources**](#sources) section).
+* All the people who contributed to the sources of the dataset (see the [**Sources**](#-sources) section).
